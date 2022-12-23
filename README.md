@@ -71,10 +71,3 @@ deleting them. It also offers the feature of viewing statistics about projects i
 * cd  client/logito
 * run npm i
 * run npm start
-
-## Team
-
-Adhyantini Bogawat (bogawat.a@northeastern.edu) [002766612]  <br>
-Arpit Jain (Jain.arpit@northeastern.edu) [002771928]         <br>
-Divya Gadge (gadge.d@northeastern.edu) [002792525]           <br>
-Swarag Gutte (gutte.s@northeastern.edu) [002728422]          <br>
