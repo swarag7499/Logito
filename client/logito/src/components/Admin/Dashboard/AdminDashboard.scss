@@ -1,0 +1,231 @@
+
+.create-employee-form {
+  margin-left: 200px;
+  width: 700px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+      "sidebar header header header"
+      "sidebar main main main";
+  height: 100vh;
+}
+
+.input-field-admin {
+  position: relative;
+  margin-left: 30px;
+}
+
+.input-field-admin input {
+  width: 350px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 2px solid #0e0e5a;
+  background: transparent;
+  color: #000000;
+  outline: none;
+}
+
+.input-field-admin label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-175%);
+  color: #0e0e5a;
+  font-size: 19px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input2:focus {
+  border: 2px solid #0b8484;
+}
+
+.input2:focus ~ label,
+.input2:valid ~ label {
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #e8e9ea;
+}
+
+.radioButton_create {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  color: #0e0e5a;
+}
+
+.Text2 {
+  display: flex;
+  flex-direction: row;
+  //margin-top: 0px;
+  //font-size: 18px;
+  //font-weight: bold;
+  color: #0e0e5a;
+  margin-top: 20px;
+}
+
+.uploadImage {
+  //border-radius: 4px;
+  background-color: #0e0e5a;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 250px;
+  transition: all 0.5s;
+  cursor: pointer;
+  //margin: 6px;
+  //margin-left: 290px;
+  margin-top: 40px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.submitButton {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submitButton:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submitButton:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.submitButton:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+#projectStatusLabel {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#createProjectTitle {
+  margin-left: 70px;
+}
+
+.fieldViewDiv {
+  display: flex;
+  flex-direction: row;
+  //margin-top: 0px;
+  color: #0e0e5a;
+  margin-top: 40px;
+}
+
+.dateFieldPosition {
+  margin-top: -17px;
+  margin-left: 32px;
+  font-size: 18px;
+  color: #0e0e5a;
+  //margin-bottom: 20px;
+}
+
+.dateField {
+  font-size: 1.5rem;
+  padding: 0 2px;
+
+}
+
+#labelDate {
+  margin-top: 1px;
+
+}
+
+input[type="date"] {
+  background: transparent;
+  width: 350px;
+  margin-left: 0px;
+  border-radius: 6px;
+  padding: 10px 15px;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-175%);
+  color: #0e0e5a;
+  font-size: 19px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input1:focus {
+  border: 2px solid #0b8484;
+}
+
+.dateField:focus ~ label,
+.dateField:valid ~ label {
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #e8e9ea;
+}
+
+#labelDate {
+  margin-top: 1px;
+}
+
+.labelAdminDashboard {
+  margin-top: 28px;
+}
+
+.alignTheSubmitButton {
+  display: flex;
+  flex-direction: row;
+  //margin-top: 0px;
+  color: #0e0e5a;
+  //margin-top: 40px;
+  margin-left: 60px;
+}
+
+.submitButtonAdmin {
+  //border-radius: 4px;
+  background-color: #0e0e5a;
+  border: none;
+  color: #fff;
+  border-radius: 6px;
+  text-align: center;
+  font-size: 18px;
+  padding: 13px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  //margin: 6px;
+  margin-left: 160px;
+  margin-top: 40px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+}
+
+.form-group_1 {
+  margin-left: 30px;
+}
+
+.createEmpTitle {
+  color: #0e0e5a;
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-left: 35px;
+}

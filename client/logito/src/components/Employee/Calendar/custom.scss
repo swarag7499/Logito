@@ -1,0 +1,35 @@
+/* override day number color and size */
+.fc-day-number {
+  font-size: 1.5em;
+  color: #5c005c;
+}
+
+/* override day title color and size */
+.fc-day-header {
+  font-size: 1.5em;
+  color: #00b294;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+      "sidebar header header header"
+      "sidebar main main main";
+  height: 100vh;
+}
+
+.calendar-view {
+  font-family: Poppins, sans-serif;
+  color: #0e0e5a;
+  font-size: 18px;
+  margin-top: 20px;
+  background: #e6e8ec;
+  margin-left: 80px;
+  margin-bottom: 10px;
+  height: 880px;
+  //font-weight: bold;
+  width: 1080px;
+  box-shadow: 0 10px 90px rgba(2, 1, 1, 0.41);
+}

@@ -1,0 +1,33 @@
+.grid-container_viewProjects {
+  //margin-left: 200px;
+  display: grid;
+  //grid-template-columns: 400px 1fr 1fr 1fr;
+  grid-template-columns: 22% 76%;
+  grid-template-rows: 13% 50%;
+
+  grid-template-areas:
+      "sidebar header  "
+      //"sidebar main main main"
+      "sidebar main  "
+      "sidebar main  "
+      "sidebar footer  ";
+  height: 100vh;
+}
+
+.card-pagination {
+  margin-left: -400px;
+}
+
+.card-pagination .pagination {
+  list-style: none;
+  margin-left: 700px;
+  display: flex;
+}
+
+.page-item {
+  padding: 10px;
+}
+
+.page-item:hover {
+  color: white;
+}

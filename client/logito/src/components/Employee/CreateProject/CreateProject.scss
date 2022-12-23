@@ -1,0 +1,158 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+      "sidebar header header header"
+      "sidebar main main main";
+  height: 100vh;
+}
+
+.input-field {
+  position: relative;
+}
+
+.input-field input {
+  width: 350px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 2px solid #0e0e5a;
+  background: transparent;
+  color: #000000;
+  outline: none;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-175%);
+  color: #0e0e5a;
+  font-size: 19px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input3:focus {
+  border: 2px solid #0b8484;
+}
+
+.input3:focus ~ label,
+.input3:valid ~ label {
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #e8e9ea;
+}
+
+.radioButton {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  color: #0e0e5a;
+}
+
+.Text2 {
+  display: flex;
+  flex-direction: row;
+  //margin-top: 0px;
+  font-size: 18px;
+  //font-weight: bold;
+  color: #0e0e5a;
+  margin-top: 20px;
+}
+
+
+.radioToggle1 {
+  margin-top: 30px;
+  margin-left: 56px;
+}
+
+//.radioToggle1:checked~.radioToggle1 {
+//  color: hsl(0, 100%, 50%);
+//}
+
+.transparent {
+  background: transparent;
+}
+
+.radioToggle2 {
+  margin-top: 30px;
+  margin-left: 43px;
+}
+
+.radioToggle3 {
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.submitButton {
+
+}
+
+.submitButton {
+  border-radius: 6px;
+  background-color: #0e0e5a;
+  border: none;
+  color: #fff;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px;
+  width: 220px;
+  transition: all 0.5s;
+  cursor: pointer;
+  //margin: 6px;
+  //margin-left: 30px;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0, .7);
+  margin-top: 22px;
+}
+
+.submitButton {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.submitButton:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 10px;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.submitButton:hover {
+  padding-right: 24px;
+  padding-left: 8px;
+}
+
+.submitButton:hover:after {
+  opacity: 1;
+  right: 10px;
+}
+
+#projectStatusLabel {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+#createProjectTitle {
+  margin-top: 50px;
+  margin-left: 70px;
+  font-size: 30px;
+  color: #0e0e5a;
+}
+
+.radioToggleCreate {
+  margin-top: 30px;
+  color: #0e0e5a;
+}
+
+.labelEmpDashboard {
+  margin-top: 28px;
+}

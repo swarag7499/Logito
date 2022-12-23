@@ -1,0 +1,126 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+    "sidebar header header header"
+    "sidebar main main main";
+  height: 100vh;
+  display: flex;
+}
+
+h4.grid-container {
+  padding: 20px;
+
+}
+
+.cardEmpProfile {
+  margin-left: 300px;
+  margin-top: 130px;
+  width: 550px;
+  //margin: 150px auto 0;
+  background-color: #e6e8ec;
+  box-shadow: 0 10px 90px #00000024;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.cardEmpProfile .card-header {
+  position: relative;
+  height: 48px;
+}
+
+.cardEmpProfile .card-header .profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 8px solid #0e0e5a;
+  margin-top: -20px;
+  box-shadow: 0 0 20px rgba(14, 14, 90, 0.61);
+}
+
+.cardEmpProfile .card-header .profile-img:hover {
+  width: 180px;
+  height: 180px;
+  border: 8px solid rgba(14, 14, 90, 0.15);
+  margin-top: -20px;
+}
+
+.cardEmpProfile .card-body {
+  padding: 10px 40px;
+
+}
+
+.cardEmpProfile .card-body .name {
+  margin-top: 20px;
+  font-size: 35px;
+  font-weight: bold;
+  color: #b33f40;
+  font-family: Arial, sans-serif;
+}
+
+.cardEmpProfile .card-body .name:hover {
+  margin-top: 30px;
+  font-size: 38px;
+  color: rgb(97, 19, 19);
+}
+
+.cardEmpProfile .card-body .mail {
+  font-size: 14px;
+  color: #c2bdbd;
+}
+
+.cardEmpProfile .card-body .mail:hover {
+  font-size: 16px;
+  color: #ffffff;
+}
+
+.cardEmpProfile .card-body .job {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+
+.cardEmpProfile .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cardEmpProfile .social-links .social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+  width: 30px;
+  background-color: #0e0e5a;
+  color: #ffffff;
+  font-size: 20px;
+  border-radius: 100%;
+  text-decoration: none;
+  margin: 0 13px 30px 0;
+}
+
+.cardEmpProfile .social-links .social-icon:last-child {
+  margin-right: 0;
+}
+
+.cardEmpProfile .social-links .social-icon:hover {
+  background-color: #3827c3;
+  height: 35px;
+  width: 35px;
+  text-decoration: none;
+}
+
+
+.detailText {
+  margin-top: 30px;
+  color: #0e0e5a;
+  font-size: 20px;
+  font-family: Arial, sans-serif;
+}

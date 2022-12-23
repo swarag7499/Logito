@@ -1,0 +1,70 @@
+.carViewViewProjects {
+  display: flex;
+  flex-direction: column;
+  border-radius: 80px;
+
+}
+
+.divideTitleDeadline {
+  height: 40px;
+  width: 500px;
+  padding: 20px 20px 10px 20px;
+  display: flex;
+  flex-direction: row;
+  //margin-top: 0px;
+  color: #0e0e5a;
+  text-transform: uppercase;
+}
+
+.projectTitleCard {
+  font-size: 35px;
+  //font-weight: bold;
+  width: 400px;
+  float: left;
+}
+
+.projectStatusCard {
+  //margin-left: 200px;
+  float: right;
+  color: #0e4605;
+  font-size: 20px;
+}
+
+.projectDeadlineCard {
+  margin-left: 30px;
+  font-size: 18px;
+  margin-bottom: 15px;
+  color: #B33F40;
+}
+
+.projectDetailCard {
+  height: 50px;
+  margin-left: 30px;
+  font-size: 18px;
+  color: dimgray;
+}
+
+.projectMembersCard {
+  margin-left: 30px;
+  height: 20px;
+  font-size: 18px;
+  color: #367952;
+  //width: 400px;
+}
+
+.carViewButtons {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.deleteButtonCard {
+  float: right;
+  margin-left: 240px;
+}
+
+#list-home-list-card {
+  //color: white;
+  text-decoration: none;
+}

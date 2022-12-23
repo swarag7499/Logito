@@ -1,0 +1,57 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: 260px 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr 3fr;
+  grid-template-areas:
+      "sidebar header header header"
+      "sidebar main main main";
+  height: 100vh;
+}
+
+.formDiv {
+  margin-top: 40px;
+}
+
+.inputFieldUpdate {
+  position: relative;
+}
+
+.inputFieldUpdate input {
+  width: 350px;
+  height: 60px;
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 15px;
+  border: 2px solid #0e0e5a;
+  background: transparent;
+  color: #000000;
+  outline: none;
+}
+
+.inputFieldUpdate label {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-175%);
+  color: #0e0e5a;
+  font-size: 19px;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.input4:focus {
+  border: 2px solid #0b8484;
+}
+
+.input4:focus ~ label,
+.input4:valid ~ label {
+  top: 0;
+  left: 15px;
+  font-size: 16px;
+  padding: 0 2px;
+  background: #e8e9ea;
+}
+
+.labelUpdateProject {
+  margin-top: 28px;
+}
